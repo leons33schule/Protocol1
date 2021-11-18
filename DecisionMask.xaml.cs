@@ -16,18 +16,21 @@ using System.Windows.Shapes;
 namespace testwpf
 {
     /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
+    /// Interaktionslogik für DecisionMask.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class DecisionMask : Page
     {
-        public MainWindow()
+        public DecisionMask()
         {
             InitializeComponent();
+            yesVotes.Text = "0";
+            noVotes.Text = "0";
+            abstentationVotes.Text = "0";
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {            
-            CenterFrame.Navigate(new System.Uri("NewProtocol.xaml", UriKind.RelativeOrAbsolute));
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

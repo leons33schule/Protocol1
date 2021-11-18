@@ -1,0 +1,31 @@
+﻿<Page x:Class="testwpf.DecisionMask"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:testwpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="200" d:DesignWidth="620"
+      Title="DecisionMask">
+
+    <Grid Background="#DDDDDD">
+        <Label Content="Agendpunkt:" HorizontalAlignment="Right" Margin="0,41,480,0" VerticalAlignment="Top"  FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
+        <Label Content="Stimmen dafür:" HorizontalAlignment="RIght" Margin="0,67,480,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
+        <Label Content="Stimmen dagegen:" HorizontalAlignment="Right" Margin="0,93,480,0" VerticalAlignment="Top"  FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
+        <Label Content="Enthaltungen:" HorizontalAlignment="Right" Margin="0,119,480,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
+        <Label Content="Thema:" HorizontalAlignment="Right" Margin="10,10,480,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
+        <Label Content="Ergebnis:" HorizontalAlignment="Right" Margin="0,144,480,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="150,13,0,0" TextWrapping="Wrap" Text="Worum geht es?" VerticalAlignment="Top" Width="460"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="150,41,0,0" TextWrapping="Wrap" Text="##" VerticalAlignment="Top" Width="35"/>
+        <TextBox Name="yesVotes" HorizontalAlignment="Left" Height="23" Margin="150,70,0,0" TextWrapping="Wrap" Text="##" VerticalAlignment="Top" Width="35" RenderTransformOrigin="0.533,1.188"/>
+        <TextBox Name="noVotes" HorizontalAlignment="Left" Height="23" Margin="150,96,0,0" TextWrapping="Wrap" Text="##" VerticalAlignment="Top" Width="35" RenderTransformOrigin="0.533,1.188"/>
+        <TextBox Name="abstentationVotes" HorizontalAlignment="Left" Height="23" Margin="150,122,0,0" TextWrapping="Wrap" Text="##" VerticalAlignment="Top" Width="35" TextChanged="TextBox_TextChanged" RenderTransformOrigin="0.533,1.188"/>
+        <TextBlock x:Name="Result" HorizontalAlignment="Left" Margin="150,149,0,0" TextWrapping="Wrap" Text="✖" VerticalAlignment="Top" Width="47"/>
+        <TextBox HorizontalAlignment="Left" Height="96" Margin="202,67,0,0" TextWrapping="Wrap" Text="Beschreibung" VerticalAlignment="Top" Width="408"/>
+        <Label Content="Beschreibung:" HorizontalAlignment="Right" Margin="0,41,295,0" VerticalAlignment="Top"  FontSize="14" FontWeight="Bold" FontFamily="Arial" Width="123"/>
+        <Label Content="Schlagwörter:" HorizontalAlignment="Right" Margin="0,167,480,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="150,169,0,0" TextWrapping="Wrap" Text="Keyword1, Keyword2, Keyword3, etc" VerticalAlignment="Top" Width="460"/>
+
+
+    </Grid>
+</Page>

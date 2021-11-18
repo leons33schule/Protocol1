@@ -13,6 +13,6 @@
         <TextBox Name="txtUsername" BorderBrush="#5b9bd5" BorderThickness="1.5" FontSize="18"/>
         <Label Content="Passwort"/>
         <PasswordBox Name="txtPassword" BorderBrush="#5b9bd5" BorderThickness="1.5" FontSize="18"/>
-        <Button Name="btnSubmit" Click="btnSubmit_Click" Content="Anmelden" Background="#5b9bd5" Margin="10 20" Height="29" Width="200"/>
+        <Button Name="btnSubmit" Click="btnSubmit_Click" Content="Anmelden" Background="#5b9bd5" Margin="10 20" Height="29" Width="190"/>
     </StackPanel>
 </Window>
