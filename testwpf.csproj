@@ -58,6 +58,10 @@
     <Compile Include="TestMichael.xaml.cs">
       <DependentUpon>TestMichael.xaml</DependentUpon>
     </Compile>
+    <Page Include="LeonSeite2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LeonTestSeite.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -69,6 +73,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LeonSeite2.xaml.cs">
+      <DependentUpon>LeonSeite2.xaml</DependentUpon>
     </Compile>
     <Compile Include="LeonTestSeite.xaml.cs">
       <DependentUpon>LeonTestSeite.xaml</DependentUpon>
