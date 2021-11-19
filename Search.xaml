@@ -13,9 +13,13 @@
         <Frame NavigationUIVisibility="Hidden" Margin="25,204,75,50" x:Name="searchFrame" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalAlignment="Stretch"  HorizontalContentAlignment="Center" Background="#DDDDDD" Source="/testwpf;component/ProtocolOverview.xaml"  />
         <TextBox HorizontalAlignment="Left" Height="53" Margin="229,41,0,0" TextWrapping="Wrap" Text="Suchbegriff" VerticalAlignment="Top" Width="395" FontSize="24" VerticalContentAlignment="Center"/>
         <Button Content=" Suche" HorizontalAlignment="Left" Margin="629,41,0,0" VerticalAlignment="Top" Width="110" Height="53" Background="#3fa8cf" Foreground="White" BorderBrush="#3fa8cf" FontSize="24" FontWeight="Medium"/>
-        <Label Content="Suche nach:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Width="189" FontSize="14" FontFamily="Arial Black" Foreground="Black" Margin="82,111,0,0"/>
-        <CheckBox Content="Protokoll" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="229,111,0,0" VerticalAlignment="Top" Height="25" Width="126" FontSize="16"/>
-        <CheckBox Content="Beschluss" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="355,112,0,0" VerticalAlignment="Top" Height="24" Width="130" FontSize="16"/>
+        <Label Content="Suche nach:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Width="142" FontSize="14" FontFamily="Arial Black" Foreground="Black" Margin="82,105,0,0"/>
+        <CheckBox Content="Protokoll" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="229,105,0,0" VerticalAlignment="Top" Height="25" Width="126" FontSize="16"/>
+        <CheckBox Content="Beschluss" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="355,106,0,0" VerticalAlignment="Top" Height="24" Width="130" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="501,143,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="238"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="229,143,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="147"/>
+        <Label Content="Art:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Width="77" FontSize="14" FontFamily="Arial Black" Foreground="Black" Margin="147,141,0,0"/>
+        <Label Content="Konferenz:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Width="91" FontSize="14" FontFamily="Arial Black" Foreground="Black" Margin="399,141,0,0"/>
 
 
     </Grid>
