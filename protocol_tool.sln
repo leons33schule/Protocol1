@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31912.275
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testwpf", "testwpf.csproj", "{AC0714DA-BEBE-4F2D-AEF9-2E1075549AE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "protocol_tool", "protocol_tool.csproj", "{AC0714DA-BEBE-4F2D-AEF9-2E1075549AE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
