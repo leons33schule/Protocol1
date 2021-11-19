@@ -5,20 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:testwpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="820" Width="1280"
+        Title="Protokoll-Tool" Height="820" Width="1280"
                 WindowStyle="SingleBorderWindow" ResizeMode="NoResize"
             WindowStartupLocation="CenterScreen">
 
     <Grid Name="Background" Background="#3fa8cf">
 
         <Button Content="Einstellungen" HorizontalAlignment="Right" Margin="0,1,15,0" VerticalAlignment="Top" Width="200" Height="53" Foreground="White" BorderBrush="#3fa8cf" FontSize="30" FontWeight="Medium" Background="#3fa8cf" Click="Button_Click_1"/>
-        <Button Content="• Startseite" HorizontalAlignment="Left" VerticalAlignment="Top" Height="53" Width="150" Background="#3fa8cf" Margin="10,1,0,0" Foreground="White" BorderBrush="#3fa8cf" FontSize="24" FontWeight="Medium"/>
+        <Button Content="• Startseite" HorizontalAlignment="Left" VerticalAlignment="Top" Height="53" Width="150" Background="#3fa8cf" Margin="10,1,0,0" Foreground="White" BorderBrush="#3fa8cf" FontSize="24" FontWeight="Medium" Click="Button_Click_2"/>
         <Button Content="• Neues Protokoll" HorizontalAlignment="Left" VerticalAlignment="Top" Height="53" Width="220" Background="#3fa8cf" Margin="170,1,0,0" Foreground="White" BorderBrush="#3fa8cf" FontSize="24" FontWeight="Medium" Click="Button_Click"/>
-        <Button Content="• Suche" HorizontalAlignment="Left" Margin="400,1,0,0" VerticalAlignment="Top" Width="110" Height="53" Background="#3fa8cf" Foreground="White" BorderBrush="#3fa8cf" FontSize="24" FontWeight="Medium"/>
+        <Button Content="• Suche" HorizontalAlignment="Left" Margin="395,0,0,0" VerticalAlignment="Top" Width="110" Height="53" Background="#3fa8cf" Foreground="White" BorderBrush="#3fa8cf" FontSize="24" FontWeight="Medium" Click="Button_Click_4"/>
+
+
+
 
         <Grid Name="DividerForButtons" Background="#DDDDDD" Margin="0,53,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="420*"/>
+                <ColumnDefinition Width="15*"/>
+                <ColumnDefinition Width="22*"/>
+                <ColumnDefinition Width="28*"/>
+                <ColumnDefinition Width="146*"/>
+                <ColumnDefinition Width="643*"/>
+            </Grid.ColumnDefinitions>
 
-            <Frame NavigationUIVisibility="Hidden" Margin="50,50,50,50" x:Name="CenterFrame" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalAlignment="Stretch"  HorizontalContentAlignment="Center" Background="#DDDDDD" />
+            <Frame NavigationUIVisibility="Hidden" Margin="50,50,50,50" x:Name="CenterFrame" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalAlignment="Stretch"  HorizontalContentAlignment="Center" Background="#DDDDDD" Source="/testwpf;component/ProtocolOverview.xaml" Grid.ColumnSpan="6"  />
 
         </Grid>
 

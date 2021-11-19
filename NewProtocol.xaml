@@ -45,8 +45,8 @@
         <Label Content="Konferenz:" HorizontalAlignment="Left" Margin="145,196,0,0" VerticalAlignment="Top" Width="115" Height="34" Background="{x:Null}" FontSize="18" RenderTransformOrigin="0.467,0" FontFamily="Arial Black"/>
         <TextBox HorizontalAlignment="Left" Margin="10,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="26" FontSize="18"/>
         <TextBox HorizontalAlignment="Left" Margin="145,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="26" FontSize="18"/>
-        <TextBox HorizontalAlignment="Right" Margin="0,59,10,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="623" Height="56"/>
-        <TextBox HorizontalAlignment="Right" Margin="0,141,10,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="623" Height="107"/>
+        <TextBox HorizontalAlignment="Right" Margin="0,59,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="623" Height="56"/>
+        <TextBox HorizontalAlignment="Right" Margin="0,141,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="623" Height="107"/>
 
 
         <Label Content="Beschreibung:" HorizontalAlignment="Right" Margin="0,34,433,0" VerticalAlignment="Top" Width="200" Height="34" Background="{x:Null}" FontSize="18" FontFamily="Arial Black"/>

@@ -1,0 +1,22 @@
+﻿<Page x:Class="testwpf.Search"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:testwpf"
+      mc:Ignorable="d" 
+        d:DesignHeight="650" d:DesignWidth="1000"
+      Title="Settings">
+
+    <Grid Name="SettingsGrid1" Background="#FFFFFF">
+        <Label Content="Suche:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="235" FontSize="20" FontFamily="Arial Black" Foreground="#FF3FA8CF" Margin="10,5,0,0"/>
+        <Frame NavigationUIVisibility="Hidden" Margin="25,204,75,50" x:Name="searchFrame" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalAlignment="Stretch"  HorizontalContentAlignment="Center" Background="#DDDDDD" Source="/testwpf;component/ProtocolOverview.xaml"  />
+        <TextBox HorizontalAlignment="Left" Height="53" Margin="229,41,0,0" TextWrapping="Wrap" Text="Suchbegriff" VerticalAlignment="Top" Width="395" FontSize="24" VerticalContentAlignment="Center"/>
+        <Button Content=" Suche" HorizontalAlignment="Left" Margin="629,41,0,0" VerticalAlignment="Top" Width="110" Height="53" Background="#3fa8cf" Foreground="White" BorderBrush="#3fa8cf" FontSize="24" FontWeight="Medium"/>
+        <Label Content="Suche nach:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Width="189" FontSize="14" FontFamily="Arial Black" Foreground="Black" Margin="82,111,0,0"/>
+        <CheckBox Content="Protokoll" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="229,111,0,0" VerticalAlignment="Top" Height="25" Width="126" FontSize="16"/>
+        <CheckBox Content="Beschluss" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="355,112,0,0" VerticalAlignment="Top" Height="24" Width="130" FontSize="16"/>
+
+
+    </Grid>
+</Page>

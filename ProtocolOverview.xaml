@@ -1,0 +1,24 @@
+﻿<Page x:Class="testwpf.ProtocolOverview"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:testwpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="1000"
+      Title="Protokoll Übersicht">
+
+    <Grid Name="SettingsGrid1" Background="#FFFFFF">
+        <Label Content="Protokoll Übersicht:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="235" FontSize="20" FontFamily="Arial Black" Foreground="#FF3FA8CF" Margin="10,5,0,0"/>
+        <Label Content="Protokoll" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="189" FontSize="14" FontFamily="Arial Black" Foreground="Black" Margin="56,94,0,0"/>
+        <Label Content="Konferenztyp" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="235" FontSize="14" FontFamily="Arial Black" Foreground="Black" Margin="335,94,0,0"/>
+        <Label Content="Konferenzdatum" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="235" FontSize="14" FontFamily="Arial Black" Foreground="Black" Margin="572,94,0,0"/>
+        <Label Content="Corona-Maßnahmen Okt." HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="274" FontSize="14" FontFamily="Arial" Foreground="Black" Margin="56,129,0,0"/>
+        <Label Content="Schule" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="189" FontSize="14" FontFamily="Arial" Foreground="Black" Margin="335,129,0,0"/>
+        <Label Content="28.09.2021" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="189" FontSize="14" FontFamily="Arial" Foreground="Black" Margin="572,129,0,0"/>
+        <Label Content="Wochenunterricht Blockklassen" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="274" FontSize="14" FontFamily="Arial" Foreground="Black" Margin="56,164,0,0"/>
+        <Label Content="IT-Berufe" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="189" FontSize="14" FontFamily="Arial" Foreground="Black" Margin="335,164,0,0"/>
+        <Label Content="12.09.2021" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="189" FontSize="14" FontFamily="Arial" Foreground="Black" Margin="572,164,0,0"/>
+
+    </Grid>
+</Page>
