@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace testwpf
 {
     /// <summary>
-    /// Interaktionslogik für NewProtocol.xaml
+    /// 
     /// </summary>
     public partial class NewProtocol : Page
     {

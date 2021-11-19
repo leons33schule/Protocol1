@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace testwpf
 {
     /// <summary>
-    /// Interaktionslogik für ProtocolOverview.xaml
+    /// This will later display all overviews over protocols on home or search page
     /// </summary>
     public partial class ProtocolOverview : Page
     {
