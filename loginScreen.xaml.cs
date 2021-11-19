@@ -29,12 +29,18 @@ namespace testwpf
 
             if (txtUsername.Text != "" && txtPassword.Password != "")
             {
+                //Creating Object from MainWindow
                 MainWindow home = new MainWindow();
+
+                //Opens the MainWindow Object
                 home.Show();
+
+                //Closing the Login window
                 this.Close();
             }
             else
             {
+                //Displays Messagebox
                 MessageBox.Show("Bitte geben Sie einen Benutzernamen und ein Passwort ein.");
             }
 
