@@ -64,6 +64,12 @@
     <Compile Include="NewProtocol.xaml.cs">
       <DependentUpon>NewProtocol.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ProtocolOverview.xaml.cs">
+      <DependentUpon>ProtocolOverview.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Search.xaml.cs">
+      <DependentUpon>Search.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Settings.xaml.cs">
       <DependentUpon>Settings.xaml</DependentUpon>
     </Compile>
@@ -105,6 +111,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="NewProtocol.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ProtocolOverview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Search.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
