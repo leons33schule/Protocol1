@@ -20,7 +20,7 @@
         <TextBox Name="yesVotes" HorizontalAlignment="Left" Height="23" Margin="150,70,0,0" TextWrapping="Wrap" Text="##" VerticalAlignment="Top" Width="35" RenderTransformOrigin="0.533,1.188"/>
         <TextBox Name="noVotes" HorizontalAlignment="Left" Height="23" Margin="150,96,0,0" TextWrapping="Wrap" Text="##" VerticalAlignment="Top" Width="35" RenderTransformOrigin="0.533,1.188"/>
         <TextBox Name="abstentationVotes" HorizontalAlignment="Left" Height="23" Margin="150,122,0,0" TextWrapping="Wrap" Text="##" VerticalAlignment="Top" Width="35" TextChanged="TextBox_TextChanged" RenderTransformOrigin="0.533,1.188"/>
-        <TextBlock x:Name="Result" HorizontalAlignment="Left" Margin="150,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47"><Run Text="✖"/><Run Text="| ✔"/></TextBlock>
+        <TextBlock x:Name="Result" HorizontalAlignment="Left" Margin="150,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47"><Run Text="✔"/><Run Text="| ✖"/></TextBlock>
         <TextBox HorizontalAlignment="Left" Height="96" Margin="202,67,0,0" TextWrapping="Wrap" Text="Beschreibung" VerticalAlignment="Top" Width="408"/>
         <Label Content="Beschreibung:" HorizontalAlignment="Right" Margin="0,41,295,0" VerticalAlignment="Top"  FontSize="14" FontWeight="Bold" FontFamily="Arial" Width="123"/>
         <Label Content="Schlagwörter:" HorizontalAlignment="Right" Margin="0,167,480,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
