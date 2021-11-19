@@ -12,8 +12,8 @@
         <Label Content="Einstellungen:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="235" FontSize="20" FontFamily="Arial Black" Foreground="#FF3FA8CF" Margin="10,5,0,0"/>
         <Label Content="Passwort ändern:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="235" FontSize="14" FontFamily="Arial Black" Foreground="#FF3FA8CF" Margin="10,54,0,0"/>
         <Label Content="Altes Passwort:" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" Width="223" Height="34" Background="{x:Null}" FontSize="18" FontFamily="Arial Black"/>
-        <Label Content="Altes Passwort (wdh):" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Width="235" Height="34" Background="{x:Null}" FontSize="18" FontFamily="Arial Black"/>
-        <Label Content="Neues Passwort:" HorizontalAlignment="Left" Margin="10,154,0,0" VerticalAlignment="Top" Width="223" Height="34" Background="{x:Null}" FontSize="18" FontFamily="Arial Black"/>
+        <Label Content="Neues Passwort:" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Width="235" Height="34" Background="{x:Null}" FontSize="18" FontFamily="Arial Black"/>
+        <Label Content="Neues Passwort (wdh):" HorizontalAlignment="Left" Margin="10,154,0,0" VerticalAlignment="Top" Width="223" Height="34" Background="{x:Null}" FontSize="18" FontFamily="Arial Black"/>
         <PasswordBox HorizontalAlignment="Left" Margin="245,125,0,0" VerticalAlignment="Top" Width="140" Height="24"/>
         <PasswordBox HorizontalAlignment="Left" Margin="245,93,0,0" VerticalAlignment="Top" Width="140" Height="24"/>
         <PasswordBox HorizontalAlignment="Left" Margin="245,159,0,0" VerticalAlignment="Top" Width="140" Height="24"/>
