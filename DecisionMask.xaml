@@ -9,7 +9,7 @@
       Title="DecisionMask">
 
     <Grid Background="#DDDDDD">
-        <Label Content="Agendpunkt:" HorizontalAlignment="Right" Margin="0,41,480,0" VerticalAlignment="Top"  FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
+        <Label Content="Agendapunkt:" HorizontalAlignment="Right" Margin="0,41,480,0" VerticalAlignment="Top"  FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
         <Label Content="Stimmen dafür:" HorizontalAlignment="RIght" Margin="0,67,480,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
         <Label Content="Stimmen dagegen:" HorizontalAlignment="Right" Margin="0,93,480,0" VerticalAlignment="Top"  FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
         <Label Content="Enthaltungen:" HorizontalAlignment="Right" Margin="0,119,480,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
