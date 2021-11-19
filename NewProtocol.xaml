@@ -9,7 +9,6 @@
        d:DesignHeight="650" d:DesignWidth="1000"
       Title="NewProtocol">
 
-
     <Grid Name="NewProtocol1" Background="#FFFFFF" Margin="0,15,0,35">
         <Label Content="Neues Protokoll" HorizontalAlignment="Left" VerticalAlignment="Top" Height="29" Width="235" FontSize="20" FontFamily="Arial Black" Foreground="#FF3FA8CF" Margin="10,5,0,0"/>
         <Label Content="Name:" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" Width="90" Height="34" Background="{x:Null}" FontSize="18" FontFamily="Arial Black"/>
@@ -66,6 +65,8 @@
         </StackPanel>
         </ScrollViewer>
         </StackPanel>
+        <Label Content="Schlagwörter:" HorizontalAlignment="Left" Margin="10,262,0,0" VerticalAlignment="Top" Width="150" Height="34" Background="{x:Null}" FontSize="18" FontFamily="Arial Black"/>
+        <TextBox HorizontalAlignment="Left" Margin="10,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320" Height="26" FontSize="18"/>
 
     </Grid>
 

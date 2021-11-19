@@ -16,23 +16,15 @@ using System.Windows.Shapes;
 namespace testwpf
 {
     /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
+    /// Interaktionslogik für Settings.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Settings : Page
     {
-        public MainWindow()
+        public Settings()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {            
-            CenterFrame.Navigate(new System.Uri("NewProtocol.xaml", UriKind.RelativeOrAbsolute));
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            CenterFrame.Navigate(new System.Uri("Settings.xaml", UriKind.RelativeOrAbsolute));
-        }
+    
     }
 }
